@@ -19,7 +19,7 @@ body{
     background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 100vh;
-    background-image: url(img/img1.JPG);
+    background-image: url(img/img3.JPG);
     background-position: 0px 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,9 +29,9 @@ body{
 .nomesData{
     position: absolute;
     z-index: 1;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 100vw;
-    top: 60%;
+    top: 78%;
     font-size: 3em;
     text-align: center;
 }
@@ -84,7 +84,7 @@ body{
     justify-content: space-between;
     width: 100vw;
     height: 60vh;
-    background-image: url(img/img3.JPG);
+    background-image: url(img/img5.JPG);
     background-position: 0px 25%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,7 +210,7 @@ footer{
     }
     
     .video{
-        height: 100vh;
+        width: 100vw;
         position: absolute;
         margin-top: 200px;
     }
@@ -236,9 +236,9 @@ footer{
         width: 100vw;
         height: 60vh;
         background-image: url(img/img3.JPG);
-        background-position: 0px 25%;
+        background-position: center 25%;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:cover;
         background-attachment: fixed;
     }
     
