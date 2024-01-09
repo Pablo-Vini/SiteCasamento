@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    background-color: rgb(50, 102, 43);
+    text-align: center;
+    height: 10vw;
+    padding-top: 5%;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-size: 3em;
+}
+h3{
+    margin: 2%;
+}
+p{
+    margin-left: 2%;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.espacoimagem{
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 30vw;
+}
+.imagem{
+    width: 100%;
+}
+.code{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -100px;
+}
+.detalhes{
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 30vw;
+}
+
+form{
+    background-color: rgb(221, 221, 221);
+    margin: 100px 2%;
+}
