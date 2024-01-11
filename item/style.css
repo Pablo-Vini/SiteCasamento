@@ -5,11 +5,11 @@
 
 header{
     width: 100vw;
-    background-color: rgb(50, 102, 43);
+    background-color: rgb(16, 32, 14);
+    color: white;
     text-align: center;
-    height: 10vw;
-    padding-top: 5%;
-    margin-bottom: 40px;
+    height: 20vh;
+    margin-bottom: 5vh;
 }
 
 h2{
@@ -24,12 +24,13 @@ p{
 section{
     display: flex;
     justify-content: center;
+    height: 65vh;
 }
 
 .espacoimagem{
     background-color: rgb(255, 255, 255);
     width: 30vw;
-    height: 30vw;
+    height: 20vw;
 }
 .imagem{
     width: 100%;
@@ -42,10 +43,22 @@ section{
 .detalhes{
     background-color: rgb(255, 255, 255);
     width: 30vw;
-    height: 30vw;
+    height: 20vw;
 }
 
 form{
     background-color: rgb(221, 221, 221);
     margin: 100px 2%;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(16, 32, 14);
+    color: white;
+    height: 10vh;
+}
+
+#rodape{
+    font-size: 1.4em;
 }
