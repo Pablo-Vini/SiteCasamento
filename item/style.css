@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -10,6 +11,19 @@ header{
     text-align: center;
     height: 20vh;
     margin-bottom: 5vh;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home{
+    position: absolute;
+    margin: 1% 1%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+.home:hover{
+    opacity: 1.7;
 }
 
 h2{
@@ -27,18 +41,18 @@ section{
     height: 65vh;
 }
 
-.espacoimagem{
-    background-color: rgb(255, 255, 255);
-    width: 30vw;
+#espacoimagem{
+    width: 32vw;
     height: 20vw;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.imagem{
-    width: 100%;
-}
+
 .code{
     position: absolute;
-    margin-left: 20%;
-    margin-top: -100px;
+    margin-left: 15%;
+    margin-top: -150px;
+    width: 15vw;
 }
 .detalhes{
     background-color: rgb(255, 255, 255);
@@ -57,6 +71,7 @@ footer{
     background-color: rgb(16, 32, 14);
     color: white;
     height: 10vh;
+    font-family: 'Dancing Script', cursive;
 }
 
 #rodape{
