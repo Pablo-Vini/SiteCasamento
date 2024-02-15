@@ -3,10 +3,12 @@ var preco = document.getElementById("valor")
 var loja = document.getElementById("loja")
 var imagem = document.getElementById("espacoimagem")
 
+var item = "jogocama"
+
 
 fetch('lista.json').then((response) => {
     response.json().then((dados) => {
-        var lista = dados
+        var lista = dados[item]
         var img = lista['imagem']
 
         nome.innerHTML = lista['nome']

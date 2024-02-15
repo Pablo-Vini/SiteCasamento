@@ -1,6 +1,8 @@
 {
-    "nome": "Nome presente",
-    "preco": "Preço presente",
-    "loja": "Loja do presente",
-    "imagem": "url(img/pressao.jpg)"
+    "jogocama":{
+        "nome": "Jogo de cama",
+        "preco": "180,00",
+        "loja": "Havan",
+        "imagem": "url(img/jogocama.jpg)"
+    }
 }
