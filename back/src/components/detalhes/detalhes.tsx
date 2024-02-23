@@ -1,6 +1,6 @@
 import "./detalhes.css"
 
-interface DetalhesItem{
+interface DetalhesProps{
     nome: string,
     preco: number,
     loja: string,
@@ -8,7 +8,8 @@ interface DetalhesItem{
     imagem: string
 
 }
-export function Detalhes(nome, preco, loja, disponivel, imagem : DetalhesItem){
+/*
+export function Detalhes({nome, preco, loja, disponivel, imagem} : DetalhesProps){
     return(
         <div className="detalhes">
             <h1></h1>
@@ -18,3 +19,4 @@ export function Detalhes(nome, preco, loja, disponivel, imagem : DetalhesItem){
         </div>
     )
 }
+*/
