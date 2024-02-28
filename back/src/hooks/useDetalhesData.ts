@@ -3,7 +3,7 @@ import { DetalhesData } from "../interface/DetalhesData";
 
 
 const api = axios.create({
-    baseURL: "http://localhost:8080/item",
+    baseURL: "http://localhost:8080/Item",
 })
 
 export default api;

@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from './vite.svg'
 import './App.css'
 import api from "./hooks/useDetalhesData";
 
 export default function App(){
-  const [user, setUser] = useState();
+  const [user, setUser] = useState<any>();
   
   useEffect(() => {
     api
-      .get("/presente")
+      .get("/item")
       .then((response) => setUser(response.data))
       .catch((err) => {
         console.error("Ops, ocorreu um erro!" + err);

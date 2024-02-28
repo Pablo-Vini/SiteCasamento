@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-query": "^3.39.3"
+    "react-query": "^3.39.3",
+    "vite": "^5.1.4"
   }
 }
