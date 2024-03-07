@@ -115,7 +115,11 @@ footer{
     }
     .ajuda{
         position: absolute;
-        margin-top: 7vh;
+        margin-top: 6vh;
+    }
+    .ajuda1{
+        position: absolute;
+        margin-top: 3vh;
     }
     .home{
         position: absolute;

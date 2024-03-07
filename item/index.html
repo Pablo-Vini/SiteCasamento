@@ -10,7 +10,7 @@
     <a class="home" href="/index.html">HOME</a>
     <header>
         <h2 class="ajuda">Nos ajude com um belo presente</h2>
-        <h3 class="ajuda">Doe o valor via PIX equivalente ao produto</h3>
+        <h3 class="ajuda1">Doe o valor via PIX equivalente ao produto</h3>
     </header>
     <section>
         <nav id="espacoimagem">
@@ -28,17 +28,22 @@
                     Loja do produto
                 </p>
             </div>
-            <form action="">
+            <form action="https://formsubmit.co/pablovgramos@gmail.com" method="post">
                 <div>
                     <label for="nome">Digite seu nome</label>
-                    <input class="nome" type="text">
+                    <input class="nome" type="text" required="required">
                 </div>
                 <div>
                     <label for="valor">Digite o valor</label>
-                    <input class="valor" type="number">
+                    <input class="valor" type="number" required="required">
                 </div>
                 
                 <input class="botao" type="button" value="Enviar dados">
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none;">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://bia-pablo.netlify.app/">
+
             </form>
             <div class="espacocode">
                 <h3>
