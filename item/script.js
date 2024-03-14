@@ -18,3 +18,12 @@ fetch('lista.json').then((response) => {
     })
 })
 
+function Enviar(){
+    var nome = document.querySelector('.nome')
+    var valor = document.querySelector('.valor')
+
+    if(nome.value != ""){
+        alert("Obrigado " + nome.value + ", pela sua ajuda!")
+        window.location.reload(true)
+    }
+}

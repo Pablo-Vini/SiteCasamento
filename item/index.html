@@ -31,14 +31,14 @@
             <form action="https://formsubmit.co/pablovgramos@gmail.com" method="post">
                 <div>
                     <label for="nome">Digite seu nome</label>
-                    <input class="nome" type="text" required="required">
+                    <input class="nome" type="text" name="name" required="required">
                 </div>
                 <div>
                     <label for="valor">Digite o valor</label>
-                    <input class="valor" type="number" required="required">
+                    <input class="valor" type="number" name="valor" required="required">
                 </div>
                 
-                <input class="botao" type="button" value="Enviar dados">
+                <input class="botao" type="submit" value="Enviar dados" onclick="Enviar()">
                 <input type="hidden" name="_subject" value="Novo Contato!">
                 <input type="text" name="_honey" style="display:none;">
                 <input type="hidden" name="_captcha" value="false">
@@ -51,7 +51,7 @@
                 </h3>
                 <p>
                     Celular: (63) 99252-0476  ou QR Code:
-                </p>
+                </p> 
                 <img class="code" src="img/code.png" alt="CodeQR">
             </div>
                 
