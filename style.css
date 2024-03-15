@@ -148,8 +148,23 @@ a{
 
 /* ************************************************************************************************/
 
+.slide{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.fotos{
+    height: 100%;
+    width: 74vh;
+    
+}
 
-
+.imagem{
+    position: absolute;
+    height: 100%;
+    display: none;
+    transition: 1s;
+}
 
 .informacoesextras{
     font-size: 3em;
