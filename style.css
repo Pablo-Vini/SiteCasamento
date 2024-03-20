@@ -166,6 +166,25 @@ a{
     transition: 1s;
 }
 
+.buttonL{
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    position: absolute;
+    width: 5vw;
+    font-size: 40pt;
+    margin-left: -10%;
+    border: none;
+}
+.buttonR{
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    position: absolute;
+    margin-left: 40%;
+    width: 5vw;
+    font-size: 40pt;
+    border: none;
+}
+
 .informacoesextras{
     font-size: 3em;
     display: flex;
@@ -317,6 +336,53 @@ footer{
         height: 80%;
     }
     
+    /*********************************************************************************************/
+
+    .slide{
+        height: 70vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .fotos{
+        height: 70vh;
+        display: flex;
+        justify-content:center;
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .imagem{
+        position: relative;
+        height: auto;
+        width: 80vw;
+        display: none;
+        transition: 1s;
+    }
+    
+    .buttonL{
+        background-color: rgb(241, 241, 241);
+        height: 50vh;
+        position: relative;
+        width: 5vw;
+        font-size: 30pt;
+        margin-left: 0;
+        border: none;
+    }
+    .buttonR{
+        background-color: rgb(241, 241, 241);
+        height: 50vh;
+        position: relative;
+        margin-left: 0;
+        width: 5vw;
+        font-size: 30pt;
+        border: none;
+    }
+
+
+
     
     .informacoesextras{
         font-size: 1.4em;
