@@ -5,7 +5,7 @@ var imagem = document.getElementById("espacoimagem")
 
 var item = "jogocama"
 
-
+/*
 fetch('lista.json').then((response) => {
     response.json().then((dados) => {
         var lista = dados[item]
@@ -16,7 +16,7 @@ fetch('lista.json').then((response) => {
         loja.innerHTML = lista['loja']
         imagem.style.backgroundImage = "url(img/jogocama.jpg)"
     })
-})
+})*/
 
 function Enviar(){
     var nome = document.querySelector('.nome')

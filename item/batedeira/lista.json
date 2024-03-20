@@ -1,0 +1,8 @@
+{
+    "jogocama":{
+        "nome": "Jogo de cama",
+        "preco": "180,00",
+        "loja": "Havan",
+        "imagem": "url(img/jogocama.jpg)"
+    }
+}

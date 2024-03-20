@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    background-color: rgb(16, 32, 14);
+    color: white;
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 5vh;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home{
+    position: absolute;
+    margin: 1% 1%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+.home:hover{
+    opacity: 1.7;
+}
+
+h2{
+    font-size: 3em;
+}
+h3{
+    margin: 2%;
+}
+p{
+    margin-left: 2%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+}
+
+#espacoimagem{
+    background-image: url("/./item/img/");
+    width: 32vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.code{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -150px;
+    width: 15vw;
+}
+.detalhes{
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 20vw;
+}
+
+form{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 100px 2%;
+    width: 15vw;
+    height: 7vh;
+}
+
+label{
+    float: left;
+}
+input{
+    float: right;
+}
+.botao{
+    width: 5vw;
+    height: 3vh;
+    position: absolute;
+    margin-top: 50px;
+    background-color: rgb(16, 32, 14);
+    color: white;
+    transition: 1s;
+}
+.botao:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(16, 32, 14);
+    color: white;
+    height: 10vh;
+    font-family: 'Dancing Script', cursive;
+}
+
+#rodape{
+    font-size: 1.4em;
+}
+
+/*
+***********************************************************************************************************************************
+***********************************************************************************************************************************
+                                                    RESPONSIVIDADE
+***********************************************************************************************************************************
+***********************************************************************************************************************************
+*/
+@media screen and (max-width: 600px){
+    header{
+        font-size: 2.8vw;
+    }
+    .ajuda{
+        position: absolute;
+        margin-top: 6vh;
+    }
+    .ajuda1{
+        position: absolute;
+        margin-top: 3vh;
+    }
+    .home{
+        position: absolute;
+        margin: 16vh 1%;
+        color: white;
+        text-decoration: none;
+        font-family: 'Dancing Script', cursive;
+        font-size: 1em;
+    }
+    
+    h2{
+        font-size: 3em;
+    }
+    h3{
+        margin: 2%;
+    }
+    p{
+        margin-left: 2%;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        height: 65vh;
+    }
+    
+    #espacoimagem{
+        width: 50vw;
+        height: 30vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    
+    .detalhes{
+        background-color: rgb(255, 255, 255);
+        width: 50vw;
+        height: 20vw;
+    }
+    
+    form{
+        width: 80vw;
+        background-color: rgb(255, 255, 255);
+        margin-top: 80px;
+        margin-left: -40vw;
+        position: absolute;
+    }
+    .botao{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 1vw;
+        width: 80px;
+        height: 40px;
+        background-color: rgb(16, 32, 14);
+        color: white;
+        border: none;
+    }
+    label{
+        float: left;
+    }
+    input{
+        float: right;
+    }
+
+    .espacocode{
+        margin-top: 22vh;
+        margin-left: -40vw;
+        text-align: center;
+    }
+    .code{
+        position: absolute;
+        margin-left: -20%;
+        margin-top: 0px;
+        width: 30vw;
+    }
+
+    footer{
+        align-items: center;
+        text-align: center;
+        background-color: rgb(16, 32, 14);
+        color: white;
+        height: 10vh;
+        font-family: 'Dancing Script', cursive;
+        font-size: 0.8em;
+    }
+    
+    #rodape{
+        font-size: 1.4em;
+    }
+}
