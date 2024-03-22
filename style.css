@@ -121,8 +121,14 @@ a{
     width: 100vw;
 }
 
+.clique{
+    position: absolute;
+    margin-top: 150px;
+    background-color: rgb(167, 255, 179);
+}
+
 .Lista{
-    margin-top: 100px;
+    margin-top: 300px;
     text-align: center;
     opacity: 1;
 }
@@ -315,6 +321,12 @@ footer{
     .Lista{
         margin-top: 100px;
         text-align: center;
+    }
+
+    .clique{
+        position: absolute;
+        margin-top: 50px;
+        background-color: rgb(167, 255, 179);
     }
     
     .linha{
