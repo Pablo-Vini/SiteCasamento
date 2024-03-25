@@ -310,6 +310,10 @@ footer{
     .section3{
         width: 100vw;
     }
+
+    #invalido{
+        background-color: rgb(51, 51, 51);
+    }
     
     .listaPresentes{
         display: flex;

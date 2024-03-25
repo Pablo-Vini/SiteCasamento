@@ -42,7 +42,7 @@ section{
 }
 
 #espacoimagem{
-    background-image: url("/./item/img/");
+    background-image: url("/./item/img/ventilador.jpg");
     width: 32vw;
     height: 20vw;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ footer{
 */
 @media screen and (max-width: 600px){
     header{
-        font-size: 2.8vw;
+        font-size: 5vw;
     }
     .ajuda{
         position: absolute;
@@ -132,7 +132,7 @@ footer{
     }
     
     h2{
-        font-size: 3em;
+        font-size: 1.5em;
     }
     h3{
         margin: 2%;
@@ -155,15 +155,13 @@ footer{
     
     
     .detalhes{
-        background-color: rgb(255, 255, 255);
         width: 50vw;
         height: 20vw;
     }
     
     form{
         width: 80vw;
-        background-color: rgb(255, 255, 255);
-        margin-top: 80px;
+        margin-top: 10%;
         margin-left: -40vw;
         position: absolute;
     }
