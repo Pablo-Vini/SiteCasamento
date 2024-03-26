@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="home" href="/index.html">HOME</a>
+    <header>
+        <h2 class="ajuda">Nos ajude com um belo presente</h2>
+        <h3 class="ajuda1">Doe o valor via PIX equivalente ao produto</h3>
+    </header>
+    <section>
+        <nav id="espacoimagem">
+            
+        </nav>
+        <nav class="detalhes">
+            <div class="descricao">
+                <h2 id="nome">
+                    Xicaras
+                </h2>
+                <h3 id="valor">
+                    140,00
+                </h3>
+                <p id="loja">
+                    Havan
+                </p>
+            </div>
+            <form action="https://formsubmit.co/pablovgramos@gmail.com" method="post">
+                <div>
+                    <label for="nome">Digite seu nome</label>
+                    <input class="nome" type="text" name="name" required="required">
+                </div>
+                
+                <input class="botao" type="submit" value="Enviar dados" onclick="Enviar()">
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none;">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://bia-pablo.netlify.app/">
+
+            </form>
+            <div class="espacocode">
+                <h3>
+                    Pagar com chave PIX:
+                </h3>
+                <p>
+                    Celular: (63) 99252-0476  ou QR Code:
+                </p> 
+                <img class="code" src="/./item/img/code.png" alt="CodeQR">
+            </div>
+                
+            
+        </nav>
+    </section>
+
+    <footer>
+        <p id="rodape">Copyright &copy; 2024 - by Pablo Vinícius</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
