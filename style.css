@@ -138,12 +138,19 @@ a{
     display: flex;
     justify-content:space-between;
 }
+
+#comprado{
+    background-color: rgb(175, 175, 175);
+    opacity: 0.4;
+}
 .item{
     width: 30vw;
     height: 20vw;
     margin: 10px;
     border: solid 2px black;
 }
+
+
 .tituloitem{
     height: 20%;
 }
